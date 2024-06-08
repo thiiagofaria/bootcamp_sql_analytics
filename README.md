@@ -1,4 +1,6 @@
 # bootcamp_sql_analytics
 
-- Aula 01
+## Aula 1
+
+* Configuração do ambiente
     
