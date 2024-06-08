@@ -157,3 +157,11 @@ https://www.postgresql.org/docs/current/functions-window.html
 
 * Função NTITLE
     -   A função NTILE() no SQL é usada para dividir o conjunto de resultados em um número especificado de partes aproximadamente iguais ou "faixas" e atribuir um número de grupo ou "bucket" a cada linha com base em sua posição dentro do conjunto de resultados ordenado.
+
+* LAG(), LEAD()
+    - LAG(): Permite acessar o valor da linha anterior dentro de um conjunto de resultados. Isso é particularmente útil para fazer comparações com a linha atual ou identificar tendências ao longo do tempo.
+    - LEAD(): Permite acessar o valor da próxima linha dentro de um conjunto de resultados, possibilitando comparações com a linha subsequente.
+
+## Aula 05 - Projeto de Análise de dados
+    Verificar o projeto completo no Github
+    https://github.com/lvgalvao/Northwind-SQL-Analytics/tree/main
