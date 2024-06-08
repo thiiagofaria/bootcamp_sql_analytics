@@ -53,15 +53,16 @@
             - Performance: Em tabelas muito grandes, operações agregadas podem ser custosas em termos de desempenho. Considere usar índices adequados ou realizar pré-agregações quando aplicável.
             - Clareza: Ao usar GROUP BY, assegure-se de que todas as colunas não agregadas na sua cláusula SELECT estejam incluídas na cláusula GROUP BY.
 
+
 ## Aula 03 - SQL para Analytics: Join and Having in SQL
     * Introdução aos Joins em SQL
-        * Inner Join: Retorna registros que têm correspondência em ambas as tabelas.
-        *Left Join (ou Left Outer Join): Retorna todos os registros da tabela esquerda e os registros correspondentes da tabela direita. Se não houver correspondência, os resultados da tabela direita terão valores NULL.
-        * Right Join (ou Right Outer Join): Retorna todos os registros da tabela direita e os registros correspondentes da tabela esquerda. Se não houver correspondência, os resultados da tabela esquerda terão valores NULL.
-        * Full Join (ou Full Outer Join): Retorna registros quando há uma correspondência em uma das tabelas. Se não houver correspondência, ainda assim, o resultado aparecerá com NULL nos campos da tabela sem correspondência.
-    * Having
-        * Use HAVING quando precisar filtrar grupos de resultados após a aplicação de funções de agregação. 
-        * Use WHERE para filtrar registros antes da agregação.
-        
+        - Inner Join: Retorna registros que têm correspondência em ambas as tabelas.
+        - Left Join (ou Left Outer Join): Retorna todos os registros da tabela esquerda e os registros correspondentes da tabela direita. Se não houver correspondência, os resultados da tabela direita terão valores NULL.
+        - Right Join (ou Right Outer Join): Retorna todos os registros da tabela direita e os registros correspondentes da tabela esquerda. Se não houver correspondência, os resultados da tabela esquerda terão valores NULL.
+        - Full Join (ou Full Outer Join): Retorna registros quando há uma correspondência em uma das tabelas. Se não houver correspondência, ainda assim, o resultado aparecerá com NULL nos campos da tabela sem correspondência.
+    - Having
+        - Use HAVING quando precisar filtrar grupos de resultados após a aplicação de funções de agregação. 
+        - Use WHERE para filtrar registros antes da agregação.
+
 
 
